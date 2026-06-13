@@ -12,3 +12,25 @@
     color: #555;
     text-align: center;
 }
+.founder-section {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin: 60px auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.founder-image img {
+    width: 280px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.founder-message {
+    flex: 1;
+}
+
+.founder-message h2 {
+    margin-bottom: 15px;
+}
