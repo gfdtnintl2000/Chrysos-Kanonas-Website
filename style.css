@@ -12,29 +12,39 @@
     color: #555;
     text-align: center;
 .founder-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 40px;
-    max-width: 1200px;
-    margin: 60px auto;
-    padding: 20px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 30px;
+  align-items: start;
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 30px 20px;
 }
 
 .founder-message {
-    flex: 2;
+  min-width: 0;
 }
 
-.founder-image {
-    flex: 1;
-    text-align: right;
+.founder-photo {
+  text-align: center;
 }
 
-.founder-image img {
-    width: 220px;
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+.founder-photo img {
+  width: 320px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
 }
+
+@media (max-width: 768px) {
+  .founder-section {
+    grid-template-columns: 1fr;
+  }
+
+  .founder-photo img {
+    width: 260px;
+    margin: 0 auto;
+  }
+
 
