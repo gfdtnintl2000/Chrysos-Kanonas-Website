@@ -40,6 +40,35 @@
   .founder-section {
     flex-direction: column;
   }
+}.founder-section {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 60px 8%;
+}
+
+.founder-message {
+  flex: 1.4;
+}
+
+.founder-image {
+  flex: 0.8;
+  text-align: center;
+}
+
+.founder-image img {
+  max-width: 320px;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+}
+
+@media (max-width: 768px) {
+  .founder-section {
+    flex-direction: column !important;
+  }
 }
 
 
