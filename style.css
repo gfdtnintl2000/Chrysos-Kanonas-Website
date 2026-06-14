@@ -181,6 +181,44 @@
 
 .whatsapp-float:hover {
   background: #1da851;
+}/* Latest News & Field Demonstrations */
+
+.updates-section {
+  background: #f4faf5;
+}
+
+.updates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  margin-top: 30px;
+}
+
+.update-card {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  border-left: 5px solid #1f5e2c;
+}
+
+.update-card h3 {
+  color: #1f5e2c;
+  margin-bottom: 10px;
+}
+
+.update-card p {
+  margin-bottom: 16px;
+}
+
+.btn-link {
+  color: #1f5e2c;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
 }
 
 
